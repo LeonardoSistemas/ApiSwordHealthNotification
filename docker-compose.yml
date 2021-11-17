@@ -1,0 +1,10 @@
+version: '3'
+
+services: 
+    desafio-sword-notification:
+        image: leonardosistemas/desafio-sword-notification:latest
+        ports: 
+            - '9076:9076'
+        
+
+        
